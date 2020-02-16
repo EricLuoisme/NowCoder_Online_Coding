@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SortDict_S {
+public class SortStrInDictOrder_Permutation_S {
     private ArrayList<String> result;
 
     public ArrayList<String> Permutation(String str) {
@@ -39,7 +39,7 @@ public class SortDict_S {
     public static void main(String[] args) {
 
         String test = "abc";
-        SortDict_S use = new SortDict_S();
+        SortStrInDictOrder_Permutation_S use = new SortStrInDictOrder_Permutation_S();
         System.out.println(use.Permutation(test));
 
     }
