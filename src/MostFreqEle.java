@@ -16,7 +16,6 @@ public class MostFreqEle {
                 freqMap.put(array[i], 1);
             }
         }
-        if (freqMap.containsKey())
 
         return freqMap.get(k);
 
