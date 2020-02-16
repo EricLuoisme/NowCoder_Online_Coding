@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class BTS {
 
@@ -11,7 +9,6 @@ public class BTS {
 
         public TreeNode(int val) {
             this.val = val;
-
         }
     }
 
