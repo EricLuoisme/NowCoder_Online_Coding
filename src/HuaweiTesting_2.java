@@ -31,7 +31,7 @@ public class HuaweiTesting_2 {
 
         for (int i = path.length() - 1; i >= 0; i--){
             if (path.charAt(i) == '\\'){
-                fileName = path.substring(i + 1, path.length());
+                fileName = path.substring(i + 1);
                 break;
             }
         }
@@ -44,9 +44,9 @@ public class HuaweiTesting_2 {
 
             }
         } else {
-            fileFullNames.put(fileName, 1);
+//            fileFullNames.put(fileName, 1);
             if (fileName.length() > 16){
-                fileName = fileName.substring(fileName.length() - 16, fileName.length());
+                fileName = fileName.substring(fileName.length() - 16);
             }
             this.num++;
             this.records[this.num][0] = fileName;
